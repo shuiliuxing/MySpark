@@ -59,6 +59,9 @@
       <artifactId>spark-mllib_2.11</artifactId>
       <version>${spark.version}</version>
     </dependency>
+
+    <!--协同过滤矩阵用到-->
+
   </dependencies>
 
   <repositories>
