@@ -21,6 +21,6 @@ object WordCount {
       .map(x=>(x.trim,1))
       .reduceByKey(_+_)
       .sortByKey(false)
-    rdd.foreach(println)
+    //rdd.foreach(println)
   }
 }
