@@ -20,7 +20,7 @@ object WordCount {
       .flatMap(_.split(","))
       .map(x=>(x.trim,1))
       .reduceByKey(_+_)
-      .sortByKey()
+      .sortByKey(false)
     rdd.foreach(println)
   }
 }
